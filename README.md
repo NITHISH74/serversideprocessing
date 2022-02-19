@@ -33,9 +33,10 @@ Publish the website in the given URL.
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Area of The Rectangle</title>
+    <title>Mathematical calculator</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+
 </head>
 <style>
     .id{
@@ -84,7 +85,7 @@ Publish the website in the given URL.
     </form>
             </div>
               <div class="id">
-    <h1>Volume of the cyclinder</h1>
+    <h1>Volume of the Cylinder</h1>
     <form method="POST">
         {% csrf_token %}
         Radius=<input type="text" name="radius" value="{{r}}">Meters</input><br/>
@@ -97,6 +98,8 @@ Publish the website in the given URL.
 </body>
 <footer>The server side Calculator was developed by NITHISHWAR.</footer>
 </html>
+
+
 ```
 ## URLS page:
 ```
@@ -153,9 +156,9 @@ def areacalculation(request):
 
 ## OUTPUT:
 
-### Home Page:
+### Area of the rectangle:
 
-### Home page:
+### Volume of the cylinder:
 
 
 ## Result:
