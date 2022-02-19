@@ -157,8 +157,12 @@ def areacalculation(request):
 ## OUTPUT:
 
 ### Area of the rectangle:
+![image](https://user-images.githubusercontent.com/94164665/154794538-7795b018-40dd-433d-a5e8-ba996fff797c.png)
+
 
 ### Volume of the cylinder:
+![image](https://user-images.githubusercontent.com/94164665/154794521-ff225b72-56b0-4bb8-b085-426623ee7eea.png)
+
 
 
 ## Result:
